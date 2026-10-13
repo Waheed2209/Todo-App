@@ -1,0 +1,8 @@
+.wrapper {
+  border-bottom: 1px solid var(--border);
+  padding: 28px 24px 20px;
+}
+
+.footerBorder {
+  border-top: 1px solid var(--border);
+}

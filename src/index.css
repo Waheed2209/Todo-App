@@ -1,0 +1,60 @@
+::before,
+::after,
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+html {
+  --spacing: 2rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a{
+  background-color: white;
+}
+
+.container {
+  width: min(1200px, 100% - calc(var(--spacing) * 2));
+  margin-inline: auto;
+}

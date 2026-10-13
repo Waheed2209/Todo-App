@@ -1,0 +1,33 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  margin: 40px auto;
+}
+
+:root {
+  --bg: hsl(252, 14%, 93%);
+  --surface: hsl(0, 0%, 100%);
+  --border: hsl(252, 14%, 88%);
+  --fg: hsl(252, 22%, 12%);
+  --fg-muted: hsl(252, 8%, 51%);
+  --accent: hsl(248, 100%, 62%);
+  --accent-light: hsl(248, 100%, 95%);
+  --danger: hsl(0, 67%, 60%);
+  --done: hsl(252, 10%, 69%);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "DM Sans", system-ui, sans-serif;
+  margin: 0;
+  padding: 0 16px;
+}
+
+
